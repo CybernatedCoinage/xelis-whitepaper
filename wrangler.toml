@@ -4,5 +4,5 @@ compatibility_date = "2024-10-25"
 workers_dev = false
 
 rules = [
-  { type = "Data", globs = ["**/*.pdf"], fallthrough = true }
+  { type = "Data", globs = ["**/*.pdf", "**/*.png"], fallthrough = true },
 ]
