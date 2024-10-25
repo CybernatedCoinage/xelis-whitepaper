@@ -1,0 +1,6 @@
+name = "xelis_whitepaper"
+main = "./index.js"
+
+rules = [
+  { type = "Data", globs = ["**/*.pdf"], fallthrough = true }
+]
