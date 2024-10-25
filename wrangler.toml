@@ -1,5 +1,7 @@
-name = "xelis_whitepaper"
+name = "xelis-whitepaper"
 main = "./index.js"
+compatibility_date = "2024-10-25"
+workers_dev = false
 
 rules = [
   { type = "Data", globs = ["**/*.pdf"], fallthrough = true }

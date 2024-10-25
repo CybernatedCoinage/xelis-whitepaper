@@ -12,7 +12,7 @@ async function handleRequest(request) {
       status: 200,
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'inline; filename="xelis_whitepaper.pdf"',
+        'Content-Disposition': 'inline; filename="XELIS__A_High_Performance_BlockDAG_for_Private__Instant__and_Scalable_Decentralized_Transactions_and_Applications.pdf"',
       },
     });
   }
