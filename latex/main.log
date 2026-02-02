@@ -1,0 +1,3082 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  1 FEB 2026 18:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/ahlar/xelis-whitepaper/latex/main.tex
+(c:/Users/ahlar/xelis-whitepaper/latex/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen159
+\scratchbox=\box53
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen160
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks19
+) (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\ahlar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+
+Underfull \hbox (badness 1102) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 and pri-vacy for trans-ac-tions and de-cen-tral-ized
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ap-pli-ca-tions. While tra-di-tional pub-lic dig-i-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/10 XELIS in-tro-duces a na-tive util-ity coin that
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 and cre-ate de-cen-tral-ized fi-nan-cial ser-vices, all
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 while main-tain-ing the con-fi-den-tial-ity of user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 To achieve these goals, XELIS em-ploys a
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 chains in-stead of choos-ing be-tween them, en-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 hanc-ing speed, scal-a-bil-ity, and se-cu-rity. It's
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 the Twisted El-Ga-mal cryp-tosys-tem, us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 com-mu-ni-ca-tion be-tween nodes se-cured us-ing
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 ChaCha20-Poly1305 en-cryp-tion, and keys are
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 in XELIS' new pro-gram-ming lan-guage named
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 27--28
+\OT1/cmr/m/n/10 and protocol-aware smart con-tract ex-e-cu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[1{C:/Users/ahlar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+]
+Underfull \hbox (badness 1028) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10 By com-bin-ing these unique fea-tures, XELIS
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 aims to pro-vide a high-performance, se-cure,
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 pro-grammable and privacy-focused blockchain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 terin, high-light-ing the dif-fi-culty of op-ti-miz-ing
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 How-ever, in-creased de-cen-tral-iza-tion may slow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 parency and user con-fi-den-tial-ity have be-come
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+<Frame 9.png, id=9, 3168.83875pt x 3485.02pt>
+File: Frame 9.png Graphic file (type png)
+<use Frame 9.png>
+Package pdftex.def Info: Frame 9.png  used on input line 44.
+(pdftex.def)             Requested size: 221.0pt x 243.01913pt.
+
+Underfull \hbox (badness 1515) in paragraph at lines 48--49
+\OT1/cmr/m/n/10 a plat-form that fa-cil-i-tates se-cure, con-fi-den-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[2 <./Frame 9.png>]
+Underfull \hbox (badness 1533) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 The evo-lu-tion of blockchain tech-nol-ogy be-gan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 cure, trans-par-ent, and im-mutable peer-to-peer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\OT1/cmr/m/n/10 con-tracts en-able pro-grammable de-cen-tral-ized
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 55--56
+\OT1/cmr/m/n/10 con-sen-sus mech-a-nism in Ethereum 2.0, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 and anonymity, of-fer-ing en-hanced fea-tures to
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 oth-ers, em-ploys stealth ad-dresses for unique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 high se-cu-rity and de-cen-tral-iza-tion through its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 64--65
+\OT1/cmr/m/n/10 speed and scal-a-bil-ity through its BlockDAG
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/10 XELIS seeks to ad-dress these short-com-ings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 71--71
+[]\OT1/cmr/bx/n/12 The Risks of Pub-lic Ledger
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 While cryp-tocur-ren-cies have trans-formed the
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 in-di-vid-u-als vul-ner-a-ble to tar-geted at-tacks and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10 To achieve scal-a-bil-ity and se-cu-rity, XELIS
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 tar-get, the plat-form may en-counter or-phaned
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/10 A de-cen-tral-ized net-work is es-sen-tial for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 87--87
+[]\OT1/cmr/bx/n/14.4 Technology and Ar-chi-tec-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 89--90
+\OT1/cmr/m/n/10 and pro-cess-ing speeds, en-sur-ing re-spon-sive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\OT1/cmr/bx/n/12 High Speed and Scal-able
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 A BlockDAG (Di-rected Acyclic Graph) is an
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 lin-ear se-quence, a BlockDAG al-lows mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 of trans-ac-tions and faster con-fir-ma-tion times,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+<Frame 1 (7).png, id=22, 501.875pt x 447.6725pt>
+File: Frame 1 (7).png Graphic file (type png)
+<use Frame 1 (7).png>
+Package pdftex.def Info: Frame 1 (7).png  used on input line 97.
+(pdftex.def)             Requested size: 176.80067pt x 157.70552pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 108--109
+\OT1/cmr/m/n/10 den-cies and main-tain-ing the cor-rect ex-e-cu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[5 <./Frame 1 (7).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 129--129
+[]\OT1/cmr/bx/n/10 Consensus Rules and Han-dling of
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 tips must not dif-fer by more than 9 per-cent
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 in dif-fi-culty to en-sure fair-ness. Trans-ac-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 133--134
+\OT1/cmr/m/n/10 and can be re-verified or re-computed dur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 con-fi-den-tial-ity of data while still al-low-ing for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 In the con-text of XELIS trans-ac-tions and
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 that only the in-volved par-ties can ac-cess the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 147--148
+\OT1/cmr/m/n/10 Taher El-ga-mal, is a public-key cryp-tosys-tem
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 1067) in paragraph at lines 149--150
+[]\OT1/cmr/m/n/10 XELIS specif-i-cally em-ploys a vari-ant known
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 149--150
+\OT1/cmr/m/n/10 Ped-er-sen com-mit-ments into ev-ery ci-pher-text,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 161--162
+\OT1/cmr/m/n/10 Mul-ti-pli-ca-tion is not nec-es-sary for the typ-i-cal
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 161--162
+\OT1/cmr/m/n/10 it pri-mar-ily in-volves trans-fer-ring ex-act val-ues
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 Ristretto Points. Its ho-mo-mor-phic prop-er-ties
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 Un-like Fully Ho-mo-mor-phic En-cryp-tion (FHE)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+<ElGamal Homomorphic XEL (1).png, id=31, 359.3425pt x 251.94125pt>
+File: ElGamal Homomorphic XEL (1).png Graphic file (type png)
+<use ElGamal Homomorphic XEL (1).png>
+Package pdftex.def Info: ElGamal Homomorphic XEL (1).png  used on input line 173.
+(pdftex.def)             Requested size: 198.89865pt x 139.45615pt.
+
+Underfull \hbox (badness 4819) in paragraph at lines 181--182
+\OT1/cmr/m/n/10 In ad-di-tion to the cryp-to-graphic tech-niques
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 181--182
+\OT1/cmr/m/n/10 dis-cussed, XELIS in-cor-po-rates a BlockDAG
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 181--182
+\OT1/cmr/m/n/10 ar-chi-tec-ture, which com-ple-ments its privacy-
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 181--182
+\OT1/cmr/m/n/10 BlockDAG struc-ture sup-ports high trans-ac-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+[7 <./ElGamal Homomorphic XEL (1).png>]
+Underfull \hbox (badness 1112) in paragraph at lines 183--184
+\OT1/cmr/m/n/10 with Ho-mo-mor-phic En-cryp-tion and BlockDAG
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 185--185
+[]\OT1/cmr/bx/n/12 Deciphering Trans-ac-tions with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 189--190
+\OT1/cmr/m/n/10 rep-re-sen-ta-tions of trans-ferred amounts. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 193--195
+\OT1/cmr/m/n/10 To per-form these ver-i-fi-ca-tions, XELIS uti-lizes
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 193--195
+\OT1/cmr/m/n/10 ef-fi-cient range proofs, which are es-sen-tial for
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 193--195
+\OT1/cmr/m/n/10 con-firm-ing the va-lid-ity of en-crypted amounts.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 198--199
+\OT1/cmr/m/n/10 ac-tion ver-i-fi-ca-tion, XELIS in-cor-po-rates sev-eral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 200--201
+[]\OT1/cmr/bx/n/10 Batching and Ag-gre-ga-tion: \OT1/cmr/m/n/10 Trans-ac-tions
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 Proofs and Sigma Proofs, XELIS sig-nif-i-cantly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]\OT1/cmr/bx/n/10 Addressing Front Run-ning and
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 210--211
+\OT1/cmr/m/n/10 bal-ances in trans-ac-tions can lead to po-ten-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 212--213
+[]\OT1/cmr/bx/n/10 BlockDAG and Trans-ac-tion Or-der: \OT1/cmr/m/n/10 In
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 212--213
+\OT1/cmr/m/n/10 dif-fi-culty, al-low-ing for po-ten-tial re-order-ing of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+[8]
+Underfull \hbox (badness 1102) in paragraph at lines 214--215
+\OT1/cmr/m/n/10 trans-ac-tions oc-cur be-tween proof cre-ation and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 216--218
+\OT1/cmr/m/n/10 uses an in-cre-ment-ing nonce to pre-vent re-play
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 216--218
+\OT1/cmr/m/n/10 trans-ac-tions are in-volved, XELIS dis-tin-guishes
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 216--218
+\OT1/cmr/m/n/10 out-puts spent) and Fi-nal Bal-ances (real user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 221--222
+\OT1/cmr/m/n/10 Balance and own-er-ship proofs play a cru-cial
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 221--222
+\OT1/cmr/m/n/10 role in XELIS by pro-vid-ing a se-cure way to
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 221--222
+\OT1/cmr/m/n/10 of their en-crypted bal-ances with-out re-veal-ing
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 221--222
+\OT1/cmr/m/n/10 sen-si-tive in-for-ma-tion. Users can se-lect from
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 221--222
+\OT1/cmr/m/n/10 bal-ance, or an own-er-ship, which will con-firm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 223--224
+[]\OT1/cmr/m/n/10 Implementing bal-ance proofs en-hances trust,
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 227--228
+\OT1/cmr/m/n/10 A com-mit-ment equal-ity proof is gen-er-ated to
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 227--228
+\OT1/cmr/m/n/10 a value of zero, uti-liz-ing the con-stant Ped-er-
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 227--228
+\OT1/cmr/m/n/10 is cre-ated us-ing the ex-pected bal-ance amount
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 227--228
+\OT1/cmr/m/n/10 next step in-volves re-cal-cu-lat-ing the ci-pher-text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 233--234
+\OT1/cmr/m/n/10 tog-ra-phy (ECC), a widely used cryp-to-graphic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 237--238
+[]\OT1/cmr/m/n/10 For tra-di-tional dis-crete log-a-rithm prob-lems,
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 237--238
+\OT1/cmr/m/n/10 com-pu-ta-tion-ally in-fea-si-ble for large key sizes.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[9]
+Underfull \hbox (badness 2073) in paragraph at lines 241--242
+\OT1/cmr/m/n/10 To solve the ECDLP ef-fi-ciently, XELIS uses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 243.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 243.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 255--256
+[]\OT1/cmr/m/n/10 If we have an oc-cur-rence in T1 ta-ble, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 267--268
+\OT1/cmr/m/n/10 di-tion, we use affine Mont-gomery co-or-di-nates,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[10]
+Underfull \hbox (badness 2556) in paragraph at lines 283--283
+[]\OT1/cmr/bx/n/12 Account Model vs. UTXO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+<Frame 1 (8).png, id=50, 655.44875pt x 286.06876pt>
+File: Frame 1 (8).png Graphic file (type png)
+<use Frame 1 (8).png>
+Package pdftex.def Info: Frame 1 (8).png  used on input line 298.
+(pdftex.def)             Requested size: 221.0pt x 96.45454pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 316--317
+[]\OT1/cmr/bx/n/10 Privacy Con-cerns: \OT1/cmr/m/n/10 Link-ing in-puts and
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 316--317
+\OT1/cmr/m/n/10 out-puts can po-ten-tially ex-pose spend-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 321--322
+\OT1/cmr/m/n/10 some other blockchains, rep-re-sents a dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 324--325
+[]\OT1/cmr/bx/n/10 Accounts: \OT1/cmr/m/n/10 In this model, each ac-count
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 324--325
+\OT1/cmr/m/n/10 Trans-ac-tions up-date the bal-ance of these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 326--327
+[]\OT1/cmr/bx/n/10 State Changes: \OT1/cmr/m/n/10 When a trans-ac-tion is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+[11 <./Frame 1 (8).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 335--336
+[]\OT1/cmr/bx/n/10 Flexibility: \OT1/cmr/m/n/10 It sup-ports more com-plex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+<Frame 2.png, id=56, 648.4225pt x 198.7425pt>
+File: Frame 2.png Graphic file (type png)
+<use Frame 2.png>
+Package pdftex.def Info: Frame 2.png  used on input line 350.
+(pdftex.def)             Requested size: 198.89865pt x 60.9636pt.
+
+Underfull \hbox (badness 3364) in paragraph at lines 357--358
+\OT1/cmr/m/n/10 up-dat-ing ac-count bal-ances, XELIS min-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 361--362
+[]\OT1/cmr/bx/n/10 Flexibility and Pri-vacy: \OT1/cmr/m/n/10 The Ac-count
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 363--364
+\OT1/cmr/m/n/10 Ac-count Model pro-vides a more in-tu-itive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 365--366
+\OT1/cmr/m/n/10 In sum-mary, while the UTXO Model has its
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 365--366
+\OT1/cmr/m/n/10 mer-its, par-tic-u-larly in terms of se-cu-rity and
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 365--366
+\OT1/cmr/m/n/10 trans-parency, the Ac-count Model's ad-van-tages
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 365--366
+\OT1/cmr/m/n/10 ef-fi-cient, user-friendly, and pri-vate blockchain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+[12 <./Frame 2.png>]
+Underfull \hbox (badness 1052) in paragraph at lines 369--370
+\OT1/cmr/m/n/10 is de-signed to ad-dress the chal-lenges of trust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 371--372
+\OT1/cmr/m/n/10 to the ro-bust-ness and de-cen-tral-iza-tion of our
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 377--378
+[]\OT1/cmr/m/n/10 To achieve this vi-sion, a pro-pri-etary PoW
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 377--378
+\OT1/cmr/m/n/10 hash-ing al-go-rithm has been de-vel-oped that is
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 377--378
+\OT1/cmr/m/n/10 fully com-pat-i-ble with GPUs and CPUs while
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 381--382
+[]\OT1/cmr/m/n/10 XelisHashV3 in-tro-duces tar-geted re-fine-ments
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 381--382
+\OT1/cmr/m/n/10 hard-ware while pre-serv-ing strong CPU per-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 re-quire-ment, Xel-isHashV3 ties mem-ory us-age
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 ac-cu-mu-late large mem-ory de-mands, lim-it-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 385--386
+\OT1/cmr/m/n/10 pri-mary con-straint, sig-nif-i-cantly nar-row-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+[]\OT1/cmr/bx/n/12 Difficulty Ad-just-ment Al-go-
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 389--390
+\OT1/cmr/m/n/10 even as the net-work's hash-ing power varies.
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 389--390
+\OT1/cmr/m/n/10 By sta-bi-liz-ing the block gen-er-a-tion rate, this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+[13]
+Underfull \hbox (badness 1107) in paragraph at lines 391--392
+[]\OT1/cmr/m/n/10 The cost of at-tack-ing a blockchain net-work
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 391--392
+\OT1/cmr/m/n/10 is di-rectly pro-por-tional to its hash-ing power.
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 391--392
+\OT1/cmr/m/n/10 dis-tributed across nu-mer-ous par-tic-i-pants are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 395--396
+\OT1/cmr/m/n/10 XELIS em-ploys a stream-lined ver-sion of the
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 395--396
+\OT1/cmr/m/n/10 work's hash rate based on the fre-quency of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 399--400
+\OT1/cmr/m/n/10 based on the cu-mu-la-tive dif-fi-culty within its
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 399--400
+\OT1/cmr/m/n/10 Di-rected Acyclic Graph (DAG) branch, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 401--402
+\OT1/cmr/m/n/10 is based on the high-est times-tamp among all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 407--408
+\OT1/cmr/m/n/10 The Client Pro-to-col is a spe-cial-ized fea-ture
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 407--408
+\OT1/cmr/m/n/10 de-signed to sup-port BlockDAG ar-chi-tec-ture,
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 407--408
+\OT1/cmr/m/n/10 ac-com-mo-dates such sce-nar-ios by ac-cept-ing all
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 407--408
+\OT1/cmr/m/n/10 rel-e-vant blocks and re-solv-ing dou-ble spend-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 412--413
+\OT1/cmr/m/n/10 ex-clu-sively in the na-tive XELIS as-set, which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+
+Underfull \vbox (badness 5022) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 420--422
+\OT1/cmr/m/n/10 This ac-counts for the com-pu-ta-tional cost
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 420--422
+\OT1/cmr/m/n/10 proofs and ho-mo-mor-phic en-cryp-tion state-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 433--434
+\OT1/cmr/m/n/10 To fur-ther se-cure the pro-to-col, a por-tion of
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 433--434
+\OT1/cmr/m/n/10 mech-a-nism pre-vents min-ers from ma-nip-u-lat-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 443--444
+\OT1/cmr/m/n/10 fee mar-ket ma-nip-u-la-tion and aligns in-cen-tives
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 451--452
+\OT1/cmr/m/n/10 en-crypts the data and in-cludes it in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 457--458
+\OT1/cmr/m/n/10 pre-hen-sive and flex-i-ble ap-proach to man-ag-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 474--475
+[]\OT1/cmr/bx/n/10 Flexibility: \OT1/cmr/m/n/10 Mul-ti-Sig is con-fig-urable on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 480--481
+\OT1/cmr/m/n/10 elim-i-nates the re-liance on a cen-tral au-thor-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+[16]
+<P2P.png, id=75, 244.915pt x 206.7725pt>
+File: P2P.png Graphic file (type png)
+<use P2P.png>
+Package pdftex.def Info: P2P.png  used on input line 484.
+(pdftex.def)             Requested size: 176.80067pt x 149.27046pt.
+
+Underfull \hbox (badness 1281) in paragraph at lines 489--490
+[]\OT1/cmr/m/n/10 In this net-work, seed nodes play a piv-otal
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 493--494
+\OT1/cmr/m/n/10 sys-tem for data trans-fer be-tween peers. To
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 501--502
+\OT1/cmr/m/n/10 unique Tokio task with a ded-i-cated buffer is
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 501--502
+\OT1/cmr/m/n/10 mit-i-gates the risk of De-nial of Ser-vice (DoS)
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 501--502
+\OT1/cmr/m/n/10 for writ-ing pack-ets. This sep-a-ra-tion en-sures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 505--506
+\OT1/cmr/m/n/10 Chain syn-chro-niza-tion in-volves the lo-cal node
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 505--506
+\OT1/cmr/m/n/10 node then re-quests each block data based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+[17 <./P2P.png>]
+Underfull \hbox (badness 1308) in paragraph at lines 511--512
+\OT1/cmr/m/n/10 con-nec-tion and is fol-lowed by a re-sponse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 513--514
+[]\OT1/cmr/bx/n/10 Transaction Prop-a-ga-tion: \OT1/cmr/m/n/10 This packet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 515--516
+\OT1/cmr/m/n/10 whose blockchain height dif-fers from the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 517--518
+[]\OT1/cmr/bx/n/10 Chain Re-quest and Chain Re-sponse:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 541--542
+\OT1/cmr/m/n/10 "prop-a-ga-tion map pred-i-cate" to main-tain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 548--549
+\OT1/cmr/m/n/10 their pri-vate keys, sig-nif-i-cantly en-hanc-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+[18]
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:551: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+[]\OT1/cmr/m/n/10 WebSockets en-able real-time, bidi-rec-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
+
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 574--575
+\OT1/cmr/m/n/10 re-moves the need for ad-di-tional RPC bridge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 580--581
+[]\OT1/cmr/bx/n/10 Flexible Per-mis-sions: \OT1/cmr/m/n/10 Users have the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 582--583
+\OT1/cmr/m/n/10 fied through command-line in-ter-face (CLI)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+[19]
+Underfull \hbox (badness 1087) in paragraph at lines 584--585
+[]\OT1/cmr/bx/n/10 Proxy for Dae-mon Re-quests: \OT1/cmr/m/n/10 XSWD
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 584--585
+\OT1/cmr/m/n/10 a uni-fied API for de-vel-op-ers to in-te-grate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 586--587
+[]\OT1/cmr/bx/n/10 Real-time No-ti-fi-ca-tions: \OT1/cmr/m/n/10 Users re-ceive
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 586--587
+\OT1/cmr/m/n/10 im-me-di-ate up-dates on wal-let events, such
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 586--587
+\OT1/cmr/m/n/10 as in-com-ing trans-ac-tions and new blocks,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
+
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 590--591
+\OT1/cmr/m/n/10 var-i-ous plat-forms and de-vices, in-clud-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 594--595
+\OT1/cmr/m/n/10 pro-to-col, with com-mu-ni-ca-tion con-ducted us-ing
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 594--595
+\OT1/cmr/m/n/10 ap-pli-ca-tion iden-ti-fier, name, de-scrip-tion, URL,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
+
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 597--598
+[]\OT1/cmr/bx/n/10 id: \OT1/cmr/m/n/10 A 64-character hex-adec-i-mal string
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 617--619
+[]\OT1/cmr/bx/n/10 deny[]always: \OT1/cmr/m/n/10 The ap-pli-ca-tion is per-ma-
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 617--619
+\OT1/cmr/m/n/10 nently de-nied per-mis-sion, with no fur-ther
+ []
+
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:623: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.623 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+[20]
+Underfull \hbox (badness 1242) in paragraph at lines 626--627
+[]\OT1/cmr/m/n/10 Similarly, meth-ods des-tined for the dae-mon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
+
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 637--638
+\OT1/cmr/m/n/10 this fea-ture may be re-served for spe-cific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
+
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 654--655
+\OT1/cmr/m/n/10 trans-parency and trace-abil-ity through-out
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--655
+
+ []
+
+[21]
+Underfull \hbox (badness 1924) in paragraph at lines 699--700
+[]\OT1/cmr/m/n/10 Contracts may also emit struc-tured events.
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 713--714
+\OT1/cmr/m/n/10 per-formed dur-ing ex-e-cu-tion. It pre-vents un-
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 749--750
+[]\OT1/cmr/bx/n/10 Privacy: \OT1/cmr/m/n/10 Con-fi-den-tial As-sets al-low to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
+
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 753--754
+[]\OT1/cmr/bx/n/10 Security: \OT1/cmr/m/n/10 Con-fi-den-tial As-sets are im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--756
+
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 757--758
+[]\OT1/cmr/bx/n/10 Management: \OT1/cmr/m/n/10 if de-ployed by a Smart
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 757--758
+\OT1/cmr/m/n/10 Con-tract, the Con-fi-den-tial As-set can be
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 757--758
+\OT1/cmr/m/n/10 man-aged by the owner for spe-cific prop-
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 757--758
+\OT1/cmr/m/n/10 er-ties/tokenomics(ie. A sta-ble-coin with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
+
+ []
+
+[23]
+Underfull \hbox (badness 3849) in paragraph at lines 769--770
+[]\OT1/cmr/m/n/10 Maximum Block Size: Lim-ited to 1.25
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 775--775
+[]\OT1/cmr/bx/n/12 Mining Re-ward and Sup-ply
+ []
+
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:776: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.776 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
+
+ []
+
+<Screenshot 2024-10-23 185252.png, id=99, 227.34938pt x 319.1925pt>
+File: Screenshot 2024-10-23 185252.png Graphic file (type png)
+<use Screenshot 2024-10-23 185252.png>
+Package pdftex.def Info: Screenshot 2024-10-23 185252.png  used on input line 785.
+(pdftex.def)             Requested size: 154.69933pt x 217.19414pt.
+[24 <./Screenshot 2024-10-23 185252.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 806--807
+\OT1/cmr/m/n/10 have am-ple op-por-tu-ni-ties to earn prof-its and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
+
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 815--816
+\OT1/cmr/m/n/10 sec-tors. While in-di-vid-ual iden-ti-ties have not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
+
+ []
+
+[25]
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:829: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 \begin
+            {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
+
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 832--833
+\OT1/cmr/m/n/10 pur-poses only and does not con-sti-tute fi-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 832--833
+\OT1/cmr/m/n/10 nan-cial, in-vest-ment, le-gal, or pro-fes-sional
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 832--833
+\OT1/cmr/m/n/10 reg-u-la-tory un-cer-tain-ties. Par-tic-i-pa-tion in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
+
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 836--837
+[]\OT1/cmr/m/n/10 Nothing con-tained in this doc-u-ment con-
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 836--837
+\OT1/cmr/m/n/10 sell any se-cu-ri-ties, fi-nan-cial prod-ucts, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 836--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--839
+
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 840--841
+[]\OT1/cmr/m/n/10 The reg-u-la-tory sta-tus of cryp-tocur-ren-cies
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 840--841
+\OT1/cmr/m/n/10 no rep-re-sen-ta-tions or war-ranties re-gard-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--843
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 848--849
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 852--853
+\OT1/cmr/m/n/10 XELIS, its team, com-mu-nity, and af-fil-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 861--862
+
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 871--872
+[]\OT1/cmr/m/n/10 XELIS ap-proaches each of the four pil-lars
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
+
+ []
+
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:875: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.875 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 876--877
+\OT1/cmr/m/n/10 cen-tral-ized con-trol. XELIS em-ploys a Proof-
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 876--877
+\OT1/cmr/m/n/10 trans-ac-tions by solv-ing com-plex math-e-mat-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
+
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 878--879
+\OT1/cmr/m/n/10 be-com-ing con-cen-trated in a small num-ber of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
+
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 880--881
+[]\OT1/cmr/m/n/10 XELIS' em-pha-sis on GPU's and CPU's co-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 880--881
+\OT1/cmr/m/n/10 existing on one al-go-rithm re-duces the risk of
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 880--881
+\OT1/cmr/m/n/10 dis-tributed across a wide num-ber of min-ers,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:883: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 884--885
+\OT1/cmr/m/n/10 lever-ages its PoW con-sen-sus mech-a-nism along
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 884--885
+\OT1/cmr/m/n/10 net-work se-cu-rity, en-sur-ing that any ma-li-cious
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 884--885
+\OT1/cmr/m/n/10 im-mense com-pu-ta-tional power, mak-ing at-tacks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
+
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 888--889
+[]\OT1/cmr/m/n/10 Furthermore, XELIS takes ad-van-tage of its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+\OT1/cmr/m/n/10 ho-mo-mor-phic en-cryp-tion cryp-to-graphic tech-
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 888--889
+\OT1/cmr/m/n/10 nol-ogy to bol-ster the se-cu-rity of in-di-vid-ual
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 888--889
+\OT1/cmr/m/n/10 al-lows trans-ac-tions to be trans-mit-ted with-out
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+
+ []
+
+[27]
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:892: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.892 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 893--894
+\OT1/cmr/m/n/10 iza-tion over trans-ac-tion through-put. XELIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
+
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 898--899
+\OT1/cmr/m/n/10 mized to en-sure faster con-fir-ma-tion times
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 901--902
+\OT1/cmr/m/n/10 Layer-2 so-lu-tions or cen-tral-ized short-cuts or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
+c:/Users/ahlar/xelis-whitepaper/latex/main.tex:905: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--907
+
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 908--909
+\OT1/cmr/m/n/10 to share their en-crypted bal-ances with oth-ers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+
+ []
+
+[28]
+Underfull \hbox (badness 1122) in paragraph at lines 917--918
+\OT1/cmr/m/n/10 of an en-crypted wal-let, en-abling users to
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 917--918
+\OT1/cmr/m/n/10 zero-knowledge proofs into sep-a-rate Rust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 920--921
+\OT1/cmr/m/n/10 Defi Ap-pli-ca-tions and As-sets to re-tain these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 922--923
+\OT1/cmr/m/n/10 tack-les the im-por-tant chal-lenge of bal-anc-ing
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 922--923
+\OT1/cmr/m/n/10 trans-parency and pri-vacy, en-sur-ing that user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 922--923
+
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 924--925
+\OT1/cmr/m/n/10 and im-ple-ment-ing ro-bust se-cu-rity mea-sures,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--925
+
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 928--929
+\OT1/cmr/m/n/10 atomic, and protocol-aware ex-e-cu-tion en-vi-ron-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
+
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 930--931
+\OT1/cmr/m/n/10 and re-ver-sion se-man-tics, and execution-level
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
+
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 932--933
+[]\OT1/cmr/m/n/10 Combined with the Silex smart con-tract
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 932--933
+\OT1/cmr/m/n/10 guar-an-tees, and seam-less in-te-gra-tion into the
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 932--933
+\OT1/cmr/m/n/10 and ex-ten-si-ble plat-form for build-ing se-cure,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 943--944
+[]\OT1/cmr/m/n/10 B^^?ohme R, Christin N, Edel-man B, Moore
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 943--944
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 945--946
+\OT1/cmr/m/n/10 from: https://www.getmonero.org/resources/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 945--946
+
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 947--948
+[]\OT1/cmr/m/n/10 Bootle J, B^^?unz B, Boneh D, Maxwell G,
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 947--948
+\OT1/cmr/m/n/10 for Con-fi-den-tial Trans-ac-tions and More. In:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 947--948
+
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 949--950
+[]\OT1/cmr/m/n/10 Buterin V. A Next-Generation Smart Con-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 949--950
+\OT1/cmr/m/n/10 tract and De-cen-tral-ized Ap-pli-ca-tion Plat-form.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--954
+
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 955--956
+\OT1/cmr/m/n/10 Pro-ceed-ings of the 14th An-nual In-ter-na-tional
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 955--956
+\OT1/cmr/m/n/10 Cryp-tol-ogy Con-fer-ence on Ad-vances in Cryp-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 955--956
+\OT1/cmr/m/n/10 tol-ogy. Santa Bar-bara, CA: Springer-Verlag;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 961--962
+\OT1/cmr/m/n/10 IEEE Trans Inf The-ory. 1985;31(4):469-472.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 963--964
+\OT1/cmr/m/n/10 In: Pro-ceed-ings of the 2015 IEEE Eu-ro-pean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 965--966
+[]\OT1/cmr/m/n/10 Gentry C. Fully Ho-mo-mor-phic En-cryp-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 965--966
+
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 967--968
+[]\OT1/cmr/m/n/10 Goldwasser S, Mi-cali S, Rack-off C. The
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 967--968
+\OT1/cmr/m/n/10 Knowl-edge Com-plex-ity of In-ter-ac-tive Proof-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 967--968
+
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 969--970
+[]\OT1/cmr/m/n/10 Goldwasser S, Mi-cali S, Rack-off C. The
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 969--970
+\OT1/cmr/m/n/10 knowl-edge com-plex-ity of in-ter-ac-tive proof sys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+[]\OT1/cmr/m/n/10 Horizen Academy. UTXO vs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+\OT1/cmr/m/n/10 Ac-count Model. Avail-able from:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+\OT1/cmr/m/n/10 https://www.horizen.io/academy/utxo-vs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 973--974
+[]\OT1/cmr/m/n/10 Kiayias A, Tse-lek-ou-nis Y, Zin-dros D. Non-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 973--974
+\OT1/cmr/m/n/10 (Eu-roS&P). Lon-don, UK: IEEE; 2020:282-297.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--974
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
+
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 981--982
+[]\OT1/cmr/m/n/10 Liu, Y., and Zhang, J. Eval-u-at-ing Mon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
+\OT1/cmr/m/n/10 ero: A Privacy-focused Cryp-tocur-rency.
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 981--982
+\OT1/cmr/m/n/10 In: Pro-ceed-ings of the 2019 IEEE In-ter-na-
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 981--982
+\OT1/cmr/m/n/10 tional Con-fer-ence on Blockchain; 2019: 1-8.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
+[]\OT1/cmr/m/n/10 Lovecruft, I. A., and de Va-lence, H.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
+\OT1/cmr/m/n/10 curve25519-dalek. https://github.com/dalek-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
+
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 985--986
+\OT1/cmr/m/n/10 Shard-ing Pro-to-col for Open Blockchains. In:
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 985--986
+\OT1/cmr/m/n/10 on Com-puter and Com-mu-ni-ca-tions Se-cu-rity;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
+
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 987--988
+[]\OT1/cmr/m/n/10 Mowery, C. An Overview of Mon-ero's Pri-
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 987--988
+\OT1/cmr/m/n/10 vacy Mech-a-nisms: Ring Sig-na-tures, Stealth
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 987--988
+\OT1/cmr/m/n/10 Ad-dresses, and RingCT. In: Pro-ceed-ings of
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 987--988
+\OT1/cmr/m/n/10 the 2017 IEEE Eu-ro-pean Sym-po-sium on Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
+[]\OT1/cmr/m/n/10 Mougayar W. The Busi-ness Blockchain:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
+
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 991--992
+[]\OT1/cmr/m/n/10 Nakamoto S. Bit-coin: A Peer-to-Peer Elec-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 991--992
+\OT1/cmr/m/n/10 tronic Cash Sys-tem. 2008. Avail-able from:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--992
+\OT1/cmr/m/n/10 https://cdn.nakamotoinstitute.org/docs/ bit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 991--992
+
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 993--994
+[]\OT1/cmr/m/n/10 National In-sti-tute of Stan-dards and Tech-
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 993--994
+\OT1/cmr/m/n/10 nol-ogy. NIST Spe-cial Pub-li-ca-tion 800-185:
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 993--994
+\OT1/cmr/m/n/10 The BLAKE Hash Func-tion. 2015. Avail-
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 993--994
+\OT1/cmr/m/n/10 able from: https://nvlpubs.nist.gov/nistpubs/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--994
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 995--997
+\OT1/cmr/m/n/10 https://www.getmonero.org/resources/ research-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--997
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 1002--1003
+[]\OT1/cmr/m/n/10 Rhea SY, God-frey PC, Manku GS, et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 1004--1005
+[]\OT1/cmr/m/n/10 Twisted El-Ga-mal. Solana. Avail-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+\OT1/cmr/m/n/10 from: https://spl.solana.com/assets/files/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+\OT1/cmr/m/n/10 twisted[]elgamal-2115c6b1e6c62a2bb4516
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
+
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 1006--1007
+\OT1/cmr/m/n/10 tol-ogy Con-fer-ence on Ad-vances in Cryp-tol-ogy.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
+
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 1010--1011
+\OT1/cmr/m/n/10 ECDLP in EC-based Ad-di-tively Ho-mo-mor-phic
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 1010--1011
+\OT1/cmr/m/n/10 En-cryp-tion and Ap-pli-ca-tions. IACR Cryp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 1018--1019
+[]\OT1/cmr/m/n/10 Voshmgir S. To-ke-nomics: Dy-namic Adop-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
+
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 1020--1021
+\OT1/cmr/m/n/10 In-ter-na-tional Con-fer-ence on Cloud Com-put-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1021
+
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 1022--1023
+\OT1/cmr/m/n/10 on Smart Con-tracts: Chal-lenges and Op-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 1024--1025
+\OT1/cmr/m/n/10 Blockchain Ap-pli-ca-tions. Berlin, Ger-many:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 1026--1027
+\OT1/cmr/m/n/10 ing, Net-work-ing and Com-mu-ni-ca-tions (ICNC);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 1028--1029
+[]\OT1/cmr/m/n/10 Zhang S, Zhao C, Zhang H, et al. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
+\OT1/cmr/m/n/10 Sur-vey on DAG-based Blockchain: Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
+\OT1/cmr/m/n/10 cepts, Ap-pli-ca-tions, and Fu-ture Di-rec-
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1028--1029
+\OT1/cmr/m/n/10 tions. IEEE Ac-cess. 2020;8:94888-94905.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
+
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 1030--1031
+[]\OT1/cmr/m/n/10 Zohar A, Som-polin-sky Y. Se-cure High-Rate
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 1030--1031
+\OT1/cmr/m/n/10 Trans-ac-tion Pro-cess-ing in Bit-coin. In: Pro-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 1030--1031
+\OT1/cmr/m/n/10 ceed-ings of the 19th In-ter-na-tional Con-fer-ence
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 1030--1031
+\OT1/cmr/m/n/10 on Fi-nan-cial Cryp-tog-ra-phy and Data Se-cu-rity
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 1030--1031
+\OT1/cmr/m/n/10 (FC). Puerto Rico: Springer; 2015:507-527.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+
+ []
+
+[32] (main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2726 strings out of 467866
+ 49107 string characters out of 5418319
+ 460257 words of memory out of 5000000
+ 31636 multiletter control sequences out of 15000+600000
+ 632956 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,8n,65p,1052b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ahlar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ahlar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (32 pages, 673237 bytes).
+PDF statistics:
+ 180 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

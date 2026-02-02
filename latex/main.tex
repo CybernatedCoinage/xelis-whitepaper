@@ -5,7 +5,7 @@
 
 \title{XELIS: A High-Performance BlockDAG for Private, Instant, and Scalable Decentralized Transactions and Applications}
 \author{Xelis Team, Cyber Henry}
-\date{October 2024}
+\date{Version 2.0, January 2026}
 
 \begin{document}
 
@@ -14,7 +14,7 @@
 \section{Abstract}
 
 
-XELIS is a private, scalable and fast Layer-1 blockchain based on BlockDAG technology, designed to ensure maximum user security and privacy for transactions and decentralized applications. While traditional public digital ledgers offer transparency, they often compromise user privacy by exposing wallet balances and transaction details. XELIS addresses this problem by offering a secure platform that combines advanced cryptographic techniques with an innovative data structure to preserve user privacy without sacrificing performance or scalability.\\
+XELIS is a private, programmable, scalable and fast Layer-1 blockchain based on BlockDAG technology, designed to ensure maximum user security and privacy for transactions and decentralized applications. While traditional public digital ledgers offer transparency, they often compromise user privacy by exposing wallet balances and transaction details. XELIS addresses this problem by offering a secure platform that combines advanced cryptographic techniques with an innovative data structure to preserve user privacy without sacrificing performance or scalability.\\
 
 XELIS introduces a native utility coin that serves multiple purposes: it is used for transaction fees and network functions, acts as a medium of exchange, and serves as a store of value. This approach allows users to conduct fast, secure, and private transactions, deploy digital applications, and create decentralized financial services, all while maintaining the confidentiality of user balances and transaction amounts. XELIS ensures that while balances and transaction amounts are private, the relationship between sender addresses and receiver addresses is maintained within the public blockchain. This strategy ensures that compliance regulators and governmental officials are still able to track and locate wallets affiliated with potential fraudulent activities.\\
 
@@ -22,9 +22,11 @@ To achieve these goals, XELIS employs a BlockDAG architecture that merges concur
 
 XELIS adopts an account-based model instead of the traditional UTXO model used by Bitcoin, resulting in a faster, more flexible, and smaller ledger that enhances privacy by eliminating the need to link inputs and outputs, thereby ensuring true fungibility. The platform supports a fast-sync feature that downloads only the latest state of the blockchain rather than its full history, further optimizing performance. Additionally, a pruning system can be employed to reduce blockchain size by removing old blocks and transactions.\\
 
-A peer-to-peer (P2P) encrypted network ensures privacy by preventing traffic analysis, with all communication between nodes secured using ChaCha20-Poly1305 encryption, and keys are rotated frequently to enhance security. XELIS is also developing smart contracts and native XELIS VM (XVM) syntax to support the creation and deployment of decentralized applications and services, further expanding its ecosystem.\\
+A peer-to-peer (P2P) encrypted network ensures privacy by preventing traffic analysis, with all communication between nodes secured using ChaCha20-Poly1305 encryption, and keys are rotated frequently to enhance security. XELIS is also fully programmable with a high performance Smart Contract system and XELIS VM (XVM) to support the creation and deployment of decentralized applications and services, further expanding its ecosystem. Smart Contracts can be created in XELIS' new programming language named "Silex" which is rust-like language optimized for performance and flexibility, or can be complied in other languages or Op/bytecode directly.\\
 
-By combining these unique features, XELIS aims to provide a high-performance, secure, and privacy-focused blockchain platform that meets the growing demands of the digital economy while protecting user data and enabling seamless interactions.\\
+XELIS extends its privacy-first architecture to decentralized application execution through the XELIS Virtual Machine (XVM), a deterministic and protocol-aware smart contract execution environment. XVM is designed specifically for secure, high-performance on-chain computation, enforcing atomic execution, explicit asset handling, and strict failure semantics to ensure that contract behavior is fully predictable and verifiable across the network. Smart contracts execute with protocol-level guarantees around state consistency, permissions, and resource usage, enabling complex decentralized applications while preserving the security and reliability required by a privacy-centric Layer-1 blockchain.\\
+
+By combining these unique features, XELIS aims to provide a high-performance, secure, programmable and privacy-focused blockchain platform that meets the growing demands of the digital economy while protecting user data and enabling seamless interactions.\\
 
 \section{Introduction}
 
@@ -76,7 +78,7 @@ XELIS offers a safer alternative by addressing these privacy shortcomings throug
 
 XELIS aims to provide enhanced confidentiality compared to Bitcoin, Ethereum and Kaspa by implementing encrypted balances and encrypted transaction amounts through the use of Homomorphic Encryption and Zero-Knowledge Proofs. This keeps the ledger decentralized while ensuring only the user has access to information about their holdings.\\
 
-To achieve scalability and security, XELIS leverages a unique BlockDAG architecture and consensus mechanism. With a low block time target, the platform may encounter orphaned blocks, but the use of BlockDAG minimizes their occurrence while allowing for a higher block count, faster transaction confirmation, improved security, and increased transactions per second. To support the development of a comprehensive DeFi ecosystem, XELIS plans to introduce Smart Contract functionality through its proprietary Virtual Machine directly on the Layer-1 protocol. The platform will also allow the creation of Confidential Assets or fully decentralized tokens with the same level of privacy and decentralization as XELIS itself.\\
+To achieve scalability and security, XELIS leverages a unique BlockDAG architecture and consensus mechanism. With a low block time target, the platform may encounter orphaned blocks, but the use of BlockDAG minimizes their occurrence while allowing for a higher block count, faster transaction confirmation, improved security, and increased transactions per second. To support the development of a comprehensive DeFi ecosystem, XELIS has fully functional, high performance and flexible Smart Contract functionality through its proprietary Virtual Machine directly on the Layer-1 protocol. This platform allows the creation of Confidential Assets or fully decentralized tokens with the same level of privacy and decentralization as XELIS itself.\\
 
 A decentralized network is essential for the security and resilience of the protocol eliminating single points of failure. XELIS achieves this by a wide distribution of nodes globally and utilizing an incentive based PoW algorithm that is friendly to both CPU and GPU miners, while remaining resistant to ASIC and FPGA hardware advantages.\\
 
@@ -264,7 +266,9 @@ In XELIS, the regular BSGS algorithm is further improved with several optimizati
 
 \textbf{Affine Coordinates:} For efficient point addition, we use affine Montgomery coordinates, which require fewer modular inversions compared to Edwards coordinates.\\
 
-\textbf{Input Shifting:} By leveraging the property −(x,y)=(x,−y) on the Montgomery curve, we reduce the need for storage and inversions by half.\\
+\textbf{Input Shifting:} By leveraging the property \[
+-\, (x, y) = (x, -y)
+\] on the Montgomery curve, we reduce the need for storage and inversions by half.\\
 
 \textbf{Fixed Constant:} The L2 constant is fixed to only ~16 kB tp simplify processing and ensure manageable table sizes. It would require slightly more modular inversions but has no visible impact on performance and can save more than 100 MB on disk in some cases.\\
 
@@ -374,6 +378,12 @@ To achieve this vision, a proprietary PoW hashing algorithm has been developed t
 
 All inner hashing and final output hash are based on Blake3 algorithm to be really fast and provide a good-quality hash. The hash generation should be as fast as possible for fast PoW verification when a block is verified.\\
 
+XelisHashV3 introduces targeted refinements designed to reduce the efficiency of highly parallel hardware while preserving strong CPU performance. The update increases the per-instance scratchpad from 440 KiB to 540 KiB, doubles ChaCha rounds from 10 to 20, and replaces deterministic memory access with fully randomized indexing. In addition, longer memory dependency chains make execution explicitly sensitive to memory latency, while index generation is improved using high-multiplication hashing.\\
+
+Rather than enforcing a fixed global memory requirement, XelisHashV3 ties memory usage directly to execution parallelism. Low-thread devices such as CPUs require only a few megabytes of memory, while highly parallel GPUs rapidly accumulate large memory demands, limiting effective occupancy and throughput.\\
+
+This design turns excessive parallelism into the primary constraint, significantly narrowing the performance gap between CPUs and GPUs with minimal increases in overall memory usage.\\
+
 \subsection{Difficulty Adjustment Algorithm}
 
 The difficulty adjustment algorithm is a fundamental aspect of any blockchain protocol utilizing a Proof-of-Work (PoW) consensus mechanism. Its primary role is to ensure that the time between new blocks remains close to a predefined target, even as the network’s hashing power varies. By stabilizing the block generation rate, this mechanism is essential for maintaining consistent issuance of new coins and enhancing the overall security of the network.\\
@@ -398,16 +408,41 @@ The Client Protocol is a specialized feature designed to support BlockDAG archit
 
 In this protocol, transactions are processed based on their topological order within the BlockDAG. For example, if Block A, at topo-height 1000, serves as the common base tip for two subsequent blocks, Block B and Block C—both at same height containing the same transaction, T1—the Client Protocol will prioritize and execute transaction T1 from Block B, assuming it is the first in the topological order. The protocol ensures that the transaction is executed only once by marking it as executed and by considering the previous tips of the block candidate to prevent duplication during branch merges.\\
 
-\subsection{Transaction Fees}
+\subsection{Dynamic Transaction Fees}
+XELIS implements a dynamic, resource-based fee system designed to balance low-cost daily usage with strong protection against spam, congestion, and state bloat. All transaction fees are paid exclusively in the native XELIS asset, which functions as a gas mechanism, a store of value, and a payment system.\\
 
-The XELIS network incorporates a robust fee structure to manage transaction costs, reward miners, and mitigate spam attacks. Transaction fees are exclusively payable using the native XELIS asset and are determined by several factors, \textit{Size in Bytes:} A fee of 0.0001 XELIS is applied per 1024 bytes of transaction data. This fee structure helps to control chain bloating and manage disk usage.
-\textit{Transfer Count: }Each transfer within a transaction incurs an additional fee of 0.00005 XELIS, reflecting the computational effort required for Homomorphic Encryption. More transfers necessitate additional computation and verification. \textit{Newly Created Addresses:} A one-time fee of 0.001 XELIS is charged for registering new addresses. This fee is designed to prevent spamming attacks by ensuring that each new address incurs a cost, thus avoiding the creation of numerous fake or unused accounts. This registration fee can be fulfilled either through mining or receiving a transaction.\\
+The minimum transaction fee is computed from multiple parameters reflecting both storage and computational costs. This multi-factor approach ensures that fees scale fairly with network usage and required validation work, while preserving incentives for miners and validators.\\
 
-\subsection{Extra Data Transfer Capabilities}
+\begin{itemize}
+    \item \textbf{Fee per KiB (Storage Fee):}  
+    Fees are based on the raw transaction size, measured per KiB (1024 bytes). The protocol enforces a minimum fee of 0.0001 XELIS per KiB. This base fee is dynamically adjusted using an exponential moving average (EMA) of recent block usage. As block utilization increases, the fee rises exponentially to discourage congestion and excessive chain growth.
 
-XELIS not only facilitates transactions but also supports data transfer with strong encryption. Data stored on the blockchain can be shared or kept private, with integration options allowing for encrypted data to be included in transactions. Each transaction supports up to 32 KiB of encrypted data (maximum 1 KiB per transfer), which can be easily manipulated using JSON encoding and decoding.\\
+    \item \textbf{Fee per Output:}  
+    Each transaction output incurs an additional static fee of 0.00005 XELIS. This accounts for the computational cost of generating and verifying zero-knowledge proofs and homomorphic encryption statements required for secure execution.
 
-Encrypted data within a transaction is injected into the extra\_data field, enabling a variety of applications from sending private messages and managing deposits to including shipping information and providing proofs of transactions. However, this data inclusion is limited in size to prevent excessive chain growth. Users must trust the service providers for executing requested actions, as the protocol does not ensure automatic execution.\\
+    \item \textbf{Fee per New Address:}  
+    To prevent state bloat through mass account creation, a one-time static fee of 0.001 XELIS is charged for each newly registered address. This fee applies only to accounts with no prior on-chain history.
+
+    \item \textbf{Fee per Signature:}  
+    Transactions involving multisignature accounts incur an extra static fee of 0.00005 XELIS per additional signature, reflecting the increased verification cost for nodes and miners.
+\end{itemize}
+
+
+\subsection{Fee Burn Protocol}
+
+To further secure the protocol, a portion of transaction fees is permanently burned. This mechanism prevents miners from manipulating the fee market, mitigates abusive behavior under high load, and introduces deflationary pressure on XELIS by reducing the total coin supply over time.\\
+
+For all transactions, a burn rate of 30\% is applied to the portion of the fee paid per KiB that exceeds the protocol-defined minimum fee per KiB. Formally, the burned amount is computed as:
+\[
+(\mathrm{Fee\ per\ KB} - \mathrm{Minimum\ Fee\ per\ KB}) \times 30\%
+\]
+
+
+This ensures that only excess fees generated during periods of high network usage are subject to burning, while preserving the minimum incentive required for miners.\\
+
+In addition, 30\% of all contract-invoking transaction fees are burned. This further discourages fee market manipulation and aligns incentives between users, miners, and the network.\\
+
+By introducing a controlled deflationary mechanism, XELIS promotes long-term value retention, discourages excessive resource consumption, and helps stabilize the native currency. This makes XELIS more attractive for payments, smart contract execution, and decentralized application usage while maintaining sustainable network economics.
 
 \subsection{Integrated Addresses}
 
@@ -605,7 +640,7 @@ These forthcoming features are designed to extend the functionality and security
 
 \subsection{Smart Contracts}
 
-Smart Contracts are an innovative feature designed to facilitate the automation and secure execution of contractual agreements directly on the blockchain. Utilizing a bespoke interpreted language within a dedicated Virtual Machine, these contracts eliminate the need for intermediaries by embedding the terms of the agreement into executable code. This approach ensures that contracts are enforced transparently and reliably, executing automatically when predefined conditions are met.
+Smart Contracts are an innovative feature designed to facilitate the automation and secure execution of contractual agreements directly on the blockchain. Utilizing a bespoke interpreted language within a dedicated Virtual Machine, these contracts eliminate the need for intermediaries by embedding the terms of the agreement into executable code. This approach ensures that contracts are enforced transparently and reliably, executing automatically when predefined conditions are met.\\
 
 Smart Contracts have a wide range of potential applications, including but not limited to:\\
 
@@ -619,28 +654,89 @@ Smart Contracts have a wide range of potential applications, including but not l
 \item \textbf{Supply Chain Management:} Enhancing transparency and traceability throughout supply chains.\\
 \end{itemize}
 
-Currently, Smart Contracts are not yet available on the XELIS mainnet but are slated for future implementation with a testnet expected shortly. The XELIS coin is designed as the utility token for all transactions and fees within the XELIS ecosystem, including smart contracts and decentralized applications (dApps). As the native currency, XELIS will be used to pay for transaction fees, smart contract execution, and interactions within dApps, ensuring a seamless and integrated user experience. By leveraging XELIS as a universal medium for these operations, the ecosystem ensures efficient and secure processing of various functions while maintaining a cohesive economic model that supports the growth and sustainability of both the blockchain and its associated applications.
+The XELIS coin is designed as the utility token for all transactions and fees within the XELIS ecosystem, including smart contracts and decentralized applications (dApps). As the native currency, XELIS will be used to pay for transaction fees, smart contract execution, and interactions within dApps, ensuring a seamless and integrated user experience. By leveraging XELIS as a universal medium for these operations, the ecosystem ensures efficient and secure processing of various functions while maintaining a cohesive economic model that supports the growth and sustainability of both the blockchain and its associated applications. In addition, XELIS will be burned during Smart Contract Execution to prevent spamming of the network and to introduce deflationary measures.
 
-\subsection{XELIS Virtual Machine (XVM)}
+\subsection{XVM --- Smart Contract Execution Environment}
 
-The XELIS Virtual Machine (XVM) is an advanced execution environment specifically designed for the XELIS network, utilizing an interpreted language developed in Rust. The XVM supports a comprehensive set of programming constructs, including constants, functions, while and foreach loops, arrays, and structures. Its syntax draws heavily from Rust and Go languages, offering a robust and familiar programming environment.\\
+\subsubsection{Motivation}
 
-\subsubsection{Key features of the XVM include:}
+XVM was developed so smart contract execution could be tailored specifically to the protocol rather than optimized for general-purpose scripting. This design increases security, improves execution speed, and enables protocol-level features that are difficult or unsafe to implement on top of generic virtual machines.
 
-\textbf{Parser Verification:} Code is verified primarily at the parsing stage to ensure compliance with the syntactic and semantic rules of the language.\\
+\subsubsection{Overview}
 
-\textbf{Primitive Types:} The language supports several primitive types, including:
-u8 (Unsigned 8-bit integer),
-u16 (Unsigned 16-bit integer),
-u32 (Unsigned 32-bit integer),
-u64 (Unsigned 64-bit integer),
-u128 (Unsigned 128-bit integer),
-bool (Boolean),
-string (String),
-struct (Structure),
-optional<T> (Nullable type where T is another data type),\\
+XVM is a deterministic execution environment responsible for executing and validating all smart contracts on the network. It enforces atomic execution, explicit asset handling, strict failure semantics, and protocol-level guarantees around state, permissions, and resource usage.
 
-Files written for the XVM are saved with the .xel extension. For additional information and to access the complete documentation, please follow the provided link to the XVM documentation. https://docs.xelis.io/features/smart-contracts 
+\subsubsection{Execution Model}
+
+Contract execution in XVM is deterministic and atomic. Each contract call executes within a single, well-defined execution context. Contracts may synchronously invoke other contracts, and execution order is consistent across all nodes.
+
+\paragraph{Atomicity}
+
+Atomicity ensures that contract execution is all-or-nothing: either all effects of a call are committed, or the system fully reverts to its previous state.
+
+\paragraph{Failure \& Reversion Semantics}
+
+Any failure---including panics, failed requires or expects, or exceeding gas limits---causes full reversion. All state changes, storage mutations, deposits, and asset transfers are rolled back. Partial execution effects are never committed.
+
+\subsubsection{State, Storage, and Memory}
+
+Each contract owns its own persistent state and storage. Contracts may read and write their own state and other contracts may read that state.
+
+Storage writes are immediately visible during execution, including across inter-contract calls, but changes are only finalized upon successful completion. If execution fails, all state changes are discarded.
+
+In addition to persistent storage, contracts have access to transient memory storage that is valid only during execution within a single block. Memory storage is not long term and is discarded after all transactions in the block execute.
+
+\subsubsection{Deposits \& Asset Handling}
+
+XVM uses an explicit deposit model. Instead of granting contracts permission to spend user balances, assets are sent as a deposit attached to a contract call.
+
+During execution, the contract controls the deposited assets and may transfer or consume them as needed. If execution fails, the deposit is automatically reverted.
+
+\subsubsection{Hooks \& Events}
+
+XVM supports hooks that allow contracts to react to predefined protocol events from within execution.
+
+Contracts may also emit structured events. Other contracts can subscribe to and listen for these events, enabling event-driven contract workflows.
+
+\subsubsection{Asynchronous Execution}
+
+Contracts may listen for events emitted by other contracts to trigger future execution. For example, one contract may request that another emit an event when a condition is met and later execute logic in response to that event.
+
+This enables asynchronous, event-based interactions while preserving deterministic execution guarantees.
+
+\subsubsection{Scheduled Execution}
+
+Contracts may schedule execution at the end of the current block or at a future topo height. Scheduled executions follow the same gas, failure, and reversion rules as standard contract calls.
+
+\subsubsection{Gas \& Resource Accounting}
+
+Gas accounts for computational and storage work performed during execution. It prevents unbounded resource usage and contributes to miner rewards.
+
+If the gas limit is exceeded, execution halts and the transaction is reverted.
+
+\subsubsection{Inter-Contract Calls}
+
+Contracts may invoke public functions of other contracts in two ways:
+\begin{itemize}
+  \item External scope, where the callee operates on its own state
+  \item Caller scope, where contracts act as reusable libraries of logic
+\end{itemize}
+
+This allows contracts to function both as protocol components and as shared libraries, while also supporting asset-bearing calls similar to user transactions.
+
+\subsubsection{Permissions \& Access Control}
+
+XVM enforces permissions and access rules at the execution-environment level. Certain actions require explicit authorization, and permission checks are enforced by the VM itself rather than relying solely on application-level logic.
+
+\subsubsection{DAG Re-Execution}
+
+During DAG reordering, contracts are re-executed and validated. Deterministic execution guarantees ensure that re-execution produces identical results across nodes.
+
+\subsection{Silex --- Smart Contract Language}
+
+Silex is the primary smart contract language targeting XVM. It features a Rust-like syntax and is designed to map cleanly onto XVM's execution, safety, and failure model.
+
+Silex avoids the complexity and bloat of adapting existing general-purpose languages. While Silex is the primary language, XVM is language-agnostic and supports alternative languages and compilers.
 
 \subsection{Confidential Assets}
 
@@ -666,7 +762,7 @@ Each asset is represented by a unique asset ID (32 bytes hash). This asset ID is
 The current consensus configuration is as follows:
 
 \begin{itemize}
-    \item Target Block Time: 15 seconds.
+    \item Target Block Time: 5 seconds.
     \item Minimum Transaction Fee: 0.00001000 XEL per kilobyte (KB).
     \item Decimal Precision: The full coin can be subdivided into up to 8 decimal places.
     \item Maximum Supply: Capped at 18.4 million coins.
@@ -798,7 +894,7 @@ Scalability is one of the greatest challenges in blockchain, particularly for Po
 
 XELIS improves scalability in the following ways:
 \begin{itemize}
-    \item \textbf{Efficient Block Size:} XELIS implements a maximum 1.25MB block size. This block size, combined with our 15 second block time on a BlockDAG architecture, ensures that the network can handle higher transaction volumes without experiencing significant slowdowns or congestion.
+    \item \textbf{Efficient Block Size:} XELIS implements a maximum 1.25MB block size. This block size, combined with our 5 second block time on a BlockDAG architecture, ensures that the network can handle higher transaction volumes without experiencing significant slowdowns or congestion.
     \item \textbf{Fast Transaction Finality:} XELIS' block times and blockDAG architecture are optimized to ensure faster confirmation times for transactions, which improves the overall throughput of the network. This makes XELIS more suitable for everyday payments and micro-transactions compared to slower PoW networks, which often struggle with high confirmation times.
 \end{itemize}
 
@@ -826,6 +922,15 @@ These privacy features are built directly into the core of XELIS, rather than be
 In conclusion, XELIS is focused on advancing blockchain technology through its innovative solution to solve the quadlemma by a combination of BlockDAG architecture, advanced cryptographic methods, and account-based model. The platform tackles the important challenge of balancing transparency and privacy, ensuring that user data remains secure while still enabling necessary oversight and regulatory compliance. By utilizing homomorphic encryption and a streamlined ledger system, XELIS aims to provide scalability, speed, and flexibility, supporting confidential transactions and the development of decentralized applications.\\
 
 With a commitment to enhancing user privacy and implementing robust security measures, XELIS positions itself as a viable solution in the evolving digital landscape. As the ecosystem continues to grow, the goal is to create an environment where users can interact, transact, and innovate with confidence, knowing their data is protected and their experience is smooth. XELIS is prepared to meet the demands of the next generation of digital interactions, prioritizing security, privacy, and efficiency in blockchain technology.\\
+
+\subsection{Smart Contract and XVM Programmability}
+
+Smart contracts and the XELIS Virtual Machine (XVM) form a foundational component of the XELIS protocol, extending its privacy-first and performance-oriented design to decentralized application execution. By providing a deterministic, atomic, and protocol-aware execution environment, XVM enables developers to build secure and efficient applications without relying on assumptions imposed by general-purpose virtual machines.\\
+
+Through explicit asset handling, strict failure and reversion semantics, and execution-level permission enforcement, XVM ensures that smart contract behavior is predictable, verifiable, and consistent across the network. These guarantees are critical in a privacy-centric Layer-1 blockchain, where correctness, security, and determinism are essential for both users and protocol participants.\\
+
+Combined with the Silex smart contract language and XELIS’s scalable BlockDAG architecture, XVM allows decentralized applications to operate with high throughput, strong safety guarantees, and seamless integration into the protocol’s economic and privacy model. Together, these components position XELIS as a robust and extensible platform for building secure, privacy-preserving decentralized systems capable of meeting the demands of real-world applications.\\
+
 
 \newpage
 
